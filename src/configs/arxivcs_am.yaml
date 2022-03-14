@@ -1,7 +1,7 @@
 dataset:
   domain_path: '../data/arxiv/cs/all_am/'
   bg_path: '../data/arxiv/all_am/'
-  result_folder: 'result/'
+  result_folder: 'results/'
   min_freq: 20 
   
   
