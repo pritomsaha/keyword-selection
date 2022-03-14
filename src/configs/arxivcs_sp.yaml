@@ -1,0 +1,17 @@
+dataset:
+  domain_path: '../data/arxiv/cs/all_sp/'
+  bg_path: '../data/arxiv/all_sp/'
+  result_folder: 'result/'
+  min_freq: 20 
+  
+  
+mixture_model:
+  sigma: 0.9
+  n_start: 30
+  max_iter: 100000
+  epsilon: 1e-10
+
+optimization:
+  K: 'all'
+
+  

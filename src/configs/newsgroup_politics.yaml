@@ -1,0 +1,17 @@
+dataset:
+  domain_path: '../data/newsgroup/talk/'
+  bg_path: '../data/newsgroup/all/'
+  result_folder: 'results/'
+  min_freq: 1 
+  
+  
+mixture_model:
+  sigma: 0.99
+  n_start: 30
+  max_iter: 100000
+  epsilon: 1e-10
+
+optimization:
+  K: 'all'
+
+  

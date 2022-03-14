@@ -1,0 +1,17 @@
+dataset:
+  domain_path: '../data/arxiv/cs/ai_sp/2000_2009/'
+  bg_path: '../data/arxiv/cs/all_sp/'
+  result_folder: 'results/'
+  min_freq: 10 
+  
+  
+mixture_model:
+  sigma: 0.99
+  n_start: 30
+  max_iter: 100000
+  epsilon: 1e-10
+
+optimization:
+  K: 'all'
+
+  
