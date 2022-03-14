@@ -1,7 +1,7 @@
 The proprocessing module is adapted from [SetExpan](https://github.com/jmshen1994/SetExpan/tree/master/src).
 
 
-## Steps to do for preprocessing
+## Steps to follow for preprocessing
 
 - First create a folder for your dataset and a subfolder with corpus file named "/source".
 
