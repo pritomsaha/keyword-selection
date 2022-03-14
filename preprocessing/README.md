@@ -7,12 +7,14 @@ The proprocessing module is adapted from [SetExpan](https://github.com/jmshen199
 
 - To process the corpus:
 ```
-./corpusProcess/process.sh dataset_folder_name vocab_file NUM_THREAD;
+cd corpusProcess;
+./process.sh dataset_folder_name vocab_file NUM_THREAD;
 ```
 - If you want to automatically generate vocabulary using AutoPhrase then set -1 for "vocab_file" in the command.
 
 
 - To generate features from processed corpus:
 ```
-./featureExtraction/extract.sh dataset_folder_name NUM_THREAD;
+cd featureExtraction;
+./extract.sh dataset_folder_name NUM_THREAD;
 ```
