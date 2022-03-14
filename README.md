@@ -18,8 +18,8 @@ Otherwise, you can directly download our preprocessed datasets and other groundt
 ## To Run
 
 ```
-cd ./src
-python3 keyword_selection.py --config config_filename
+cd ./src;
+python3 keyword_selection.py --config config_filename;
 ```
 Please see the some config files in the "./src/configs/" folder that are used for the experients presented in the paper. 
 Results are saved under the results folder of the corresponding dataset folder"
