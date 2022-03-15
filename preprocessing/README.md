@@ -10,7 +10,7 @@ The proprocessing module is adapted from [SetExpan](https://github.com/jmshen199
 cd corpusProcess;
 ./process.sh dataset_folder_name vocab_file NUM_THREAD;
 ```
-- If you want to automatically generate vocabulary using AutoPhrase then set -1 for "vocab_file" in the command.
+- If you want to automatically generate vocabulary using AutoPhrase then set -1 for "vocab_file" in the command. Or give the vocab file name and put the file in the "./data/vocabs" folder. 
 
 
 - To generate features from processed corpus:
