@@ -9,42 +9,6 @@ def additive_smoothing(p, total_frequency):
     p /= (total_frequency + p.shape[0])
     return p
 
-
-def get_mi_(eid1, eid2, eid2DocProb, eidDocPair2Prob):
-    '''calculate mutual information between eid1 and eid2
-    '''
-    pair = frozenset([eid1, eid2])
-    e1_prob1 = eid2DocProb.get(eid1, 0)
-    e2_prob1 = eid2DocProb.get(eid2, 0)
-    if eid1 == eid2:
-        pair_prob_11 = e1_prob1
-
-    else: pair_prob_11 = eidDocPair2Prob.get(pair,0)
-    
-    if pair_prob_11 == 0:
-        return 0
-    
-    pmi = pair_prob_11*np.log(pair_prob_11/(e1_prob1*e2_prob1))/-np.log(pair_prob_11)
-    return pmi
-
-def get_npmi(eid1, eid2, eid2DocProb, eidDocPair2Prob):
-    '''calculate normalized pointwise mutual information between eid1 and eid2
-    '''
-    pair = frozenset([eid1, eid2])
-    e1_prob1 = eid2DocProb.get(eid1, 0)
-    e2_prob1 = eid2DocProb.get(eid2, 0)
-    if eid1 == eid2:
-        pair_prob_11 = e1_prob1
-
-    else: pair_prob_11 = eidDocPair2Prob.get(pair,0)
-    
-    if pair_prob_11 == 0:
-        return -1
-    
-    pmi = math.log(pair_prob_11/(e1_prob1*e2_prob1))
-    npmi = pmi/-math.log(pair_prob_11)
-    return npmi
-
 def get_mi(eid1, eid2, eid2DocProb, eidDocPair2Prob):
     '''calculate mutual information between eid1 and eid2
     '''
