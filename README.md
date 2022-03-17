@@ -28,4 +28,12 @@ Results are saved under the results folder of the corresponding dataset folder"
 
 Please cite the following paper if you are using this code. Thanks!
 
-* Pritom Saha Akash, Jie Huang, Kevin Chen-Chuan Chang, Yunyao Li, Lucian Popa, ChengXiang Zhai. Domain Representative Keywords Selection: A Probabilistic Approach. Findings of the 60th Annual Meeting of the Association for Computational Linguistics (Findings of ACL). 2022
+```
+@inproceedings{pritom2022keyword,
+  title={Domain Representative Keywords Selection: A Probabilistic Approach},
+  author={Akash, Pritom Saha and Huang, Jie and Chang, Kevin Chen-Chuan and Li, Yunyao and Popa, Lucian and Zhai, ChengXiang},
+  booktitle={Findings of the Association for Computational Linguistics: ACL 2022},
+  year={2022}
+}
+
+```
