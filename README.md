@@ -35,5 +35,4 @@ Please cite the following paper if you are using this code. Thanks!
   booktitle={Findings of the Association for Computational Linguistics: ACL 2022},
   year={2022}
 }
-
 ```
